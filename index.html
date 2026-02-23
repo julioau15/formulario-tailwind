@@ -6,17 +6,17 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Formulário</title>
 </head>
-<body class="bg-red-500 flex justify-center items-center md:h-[100vh]">
-    <main class='bg-red-600 flex flex-col justify-center items-center p-[20px] gap-[20px] text-white text-[1.5rem] w-[100vw] h-[100vh] md:w-auto md:h-auto'>
-        <h1>Criar Conta</h1>
+<body class="bg-red-400 flex justify-center items-center md:h-[100vh]">
+    <main class='bg-red-500 flex flex-col justify-center items-center p-[40px] gap-[20px] text-white text-[1.5rem] w-[100vw] h-[100vh] md:w-auto md:h-auto'>
+        <h1 class="text-[50px]">Criar Conta</h1>
 
         <div class="flex items-center">
-            <img src="img/facebook-icon.png" alt="icon facebook" class="w-[50px] h-[50px]">
-            <img src="img/google-icon.png" alt="icon google" class="w-[60px] h-[60px] ">
-            <img src="img/linkind-icon.png" alt="icon linkedin" class="w-[50px] h-[50px]">
+            <img src="img/facebook-icon.png" alt="icon facebook" class="w-[50px] h-[50px] hover:scale-110 cursor-pointer">
+            <img src="img/google-icon.png" alt="icon google" class="w-[60px] h-[60px] hover:scale-110 cursor-pointer">
+            <img src="img/linkind-icon.png" alt="icon linkedin" class="w-[50px] h-[50px] hover:scale-110 cursor-pointer">
         </div>
 
-        <p>Ou cadastre seu perfil</p>
+        <p class="text-[20px]">Ou cadastre seu perfil</p>
 
         <div class="flex flex-col gap-[10px] text-black">
             <input type="text" placeholder="email" class="bg-white p-[5px]">
@@ -24,7 +24,7 @@
             <input type="text" placeholder="senha" class="bg-white p-[5px]">
         </div>
 
-        <button>Cadastrar</button>
+        <button class="text-[15px] border px-[30px] py-[2px] rounded-[50px]">CADASTRAR</button>
         <p>Já tem conta? <a href="#">Login</a></p>
 
     </main>
